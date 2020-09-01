@@ -6,14 +6,16 @@ import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import com.testProject.giphy.entity.Giph
+import com.testProject.giphy.entity.WishGiph
 import com.testProject.giphy.viewHolders.GiphViewHolder
+import com.testProject.giphy.viewHolders.WishItemViewHolder
 import java.util.*
 
-class GiphsRecyclerAdapter() : PagedListAdapter<Giph, GiphViewHolder>(diffCallback) {
+class WishListRecyclerAdapter() : PagedListAdapter<WishGiph,WishItemViewHolder>(diffCallback) {
 
     private var onItemLongClickListener: OnItemLongClickListener? = null
 
-    override fun onBindViewHolder(holder: GiphViewHolder, position: Int) {
+   override fun onBindViewHolder(holder: WishItemViewHolder, position: Int) {
         if (getItem(position) != null) {
             holder.bindTo(getItem(position))
         }
@@ -25,31 +27,27 @@ class GiphsRecyclerAdapter() : PagedListAdapter<Giph, GiphViewHolder>(diffCallba
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) : GiphViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) : WishItemViewHolder {
 
-        return GiphViewHolder(parent)
+        return WishItemViewHolder(parent)
     }
 
     companion object {
 
-         val diffCallback = object : DiffUtil.ItemCallback<Giph>() {
+         val diffCallback = object : DiffUtil.ItemCallback<WishGiph>() {
 
-            override fun areItemsTheSame(oldItem: Giph, newItem: Giph): Boolean =
+            override fun areItemsTheSame(oldItem: WishGiph, newItem: WishGiph): Boolean =
                 oldItem.id == newItem.id
 
 
             @SuppressLint("DiffUtilEquals")
-            override fun areContentsTheSame(oldItem: Giph, newItem: Giph): Boolean =
+            override fun areContentsTheSame(oldItem: WishGiph, newItem: WishGiph): Boolean =
                 oldItem == newItem
         }
     }
 
-  /*  interface OnItemLongClickListener<T> {
-        fun onItemLongClicked(itemBinder: T, position: Int)
-    }
-*/
     interface OnItemLongClickListener {
-        fun onItemLongClicked(giph: Giph?, position: Int)
+        fun onItemLongClicked(giph: WishGiph?, position: Int)
     }
 
     fun setOnItemLongClickListener(itemLongClickListener : OnItemLongClickListener?) {

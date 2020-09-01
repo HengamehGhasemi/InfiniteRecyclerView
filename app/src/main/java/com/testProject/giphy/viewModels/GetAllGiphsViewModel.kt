@@ -1,10 +1,7 @@
-package com.testProject.giphy
+package com.testProject.giphy.viewModels
 
 import android.app.Application
-import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.*
 
 
 import androidx.paging.DataSource
@@ -13,13 +10,11 @@ import androidx.paging.PagedList
 import com.testProject.giphy.Dao.GiphDao
 import com.testProject.giphy.Db.GiphDb
 import com.testProject.giphy.entity.Giph
-import com.testProject.giphy.helpers.GiphBoundaryCallback
-import io.reactivex.disposables.Disposable
+import com.testProject.giphy.BoundaryCallbacks.GiphBoundaryCallback
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import okhttp3.Dispatcher
 
-public class MyViewModel(application: Application) : AndroidViewModel(application){
+public class GetAllGiphsViewModel(application: Application) : AndroidViewModel(application){
 
     var  giphDao: GiphDao? = null
     var callback: GiphBoundaryCallback? ? = null
@@ -30,14 +25,14 @@ public class MyViewModel(application: Application) : AndroidViewModel(applicatio
     init {
          giphDao = GiphDb.get(application).gapeDado()
          callback = GiphBoundaryCallback(giphDao,this)
-         factory  = giphDao?.AllGiphs()
+         factory  = giphDao?.GetAllGiphs()
          config = PagedList.Config.Builder()
              .setPageSize(60)
             .setInitialLoadSizeHint(60)
             .setEnablePlaceholders(true)
             .build()
-        giphyes =
-            LivePagedListBuilder(factory!!, config!!).setBoundaryCallback(callback!!).build()
+        giphyes = LivePagedListBuilder(factory!!, config!!).setBoundaryCallback(callback!!).build()
+
     }
 
     fun insertData(giphs : List<Giph>?)  {
@@ -45,4 +40,16 @@ public class MyViewModel(application: Application) : AndroidViewModel(applicatio
             giphDao?.insertAll(giphs!!)
         }
     }
+
+    fun insertAData(giphs : Giph?)  {
+        viewModelScope.launch(Dispatchers.IO){
+            giphDao?.insert(giphs!!)
+        }
+    }
+
+    fun DeletAllData()  {
+        viewModelScope.launch(Dispatchers.IO){ giphDao?.deleteAll()
+        }
+    }
+
 }

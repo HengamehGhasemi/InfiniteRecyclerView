@@ -17,23 +17,24 @@ import com.bumptech.glide.request.target.Target
 import com.squareup.picasso.Picasso
 import com.testProject.giphy.R
 import com.testProject.giphy.entity.Giph
+import com.testProject.giphy.entity.WishGiph
 import com.testProject.giphy.viewModels.GetAllGiphsViewModel
 import com.testProject.giphy.viewModels.WishListViewModel
 import javax.sql.DataSource
 
-class GiphViewHolder(parent : ViewGroup) : RecyclerView.ViewHolder (
+class WishItemViewHolder(parent : ViewGroup) : RecyclerView.ViewHolder (
     LayoutInflater.from(parent.context).inflate(R.layout.giph_item, parent, false)){
 
     private var image = itemView.findViewById<ImageView>(R.id.image)
     private var imageLoading = itemView.findViewById<ImageView>(R.id.loadingImage)
     private val context = parent.context;
 
-    var giph : Giph? = null
-    fun bindTo(giph : Giph?) {
-        this.giph = giph
+    var wishGiph : WishGiph? = null
+    fun bindTo(wishGiph : WishGiph?) {
+        this.wishGiph = wishGiph
         //Picasso.get().load(giph?.embed_url).into(image)
         Glide.with(context).load(R.drawable.rapid_radiant_bug).into(imageLoading)
-        Glide.with(context).load("https://media4.giphy.com/media/"+giph?.id+"/giphy-downsized.gif").listener(object : RequestListener<Drawable> {
+        Glide.with(context).load("https://media4.giphy.com/media/"+wishGiph?.id+"/giphy-downsized.gif").listener(object : RequestListener<Drawable> {
             override fun onLoadFailed(
                 p0: GlideException?,
                 p1: Any?,

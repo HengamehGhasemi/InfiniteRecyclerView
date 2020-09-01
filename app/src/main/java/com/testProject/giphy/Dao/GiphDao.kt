@@ -2,6 +2,7 @@ package com.testProject.giphy.Dao
 
 import android.content.ClipData.Item
 import androidx.paging.DataSource
+import androidx.paging.PagedList
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -13,7 +14,7 @@ import com.testProject.giphy.entity.Giph
 interface GiphDao {
 
     @Query("SELECT * FROM  giph_table")
-    fun AllGiphs() : DataSource.Factory<Int, Giph>
+    fun GetAllGiphs() : DataSource.Factory<Int, Giph>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAll(posts: List<Giph>)

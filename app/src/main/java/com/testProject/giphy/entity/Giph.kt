@@ -2,11 +2,8 @@ package com.testProject.giphy.entity
 
 import androidx.annotation.NonNull
 import androidx.room.Entity
-import androidx.room.Ignore
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-import com.testProject.giphy.modals.Images
-import org.jetbrains.annotations.NotNull
 
 @Entity(tableName = "giph_table")
 class Giph(

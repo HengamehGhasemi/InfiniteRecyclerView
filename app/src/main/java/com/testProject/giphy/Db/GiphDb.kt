@@ -5,12 +5,21 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.testProject.giphy.Dao.GiphDao
+import com.testProject.giphy.Dao.WishListDao
 import com.testProject.giphy.entity.Giph
+import com.testProject.giphy.entity.WishGiph
 
-@Database(entities = [Giph::class], version = 2 , exportSchema = false)
+
+@Database(
+    entities = [Giph::class, WishGiph::class],
+    version = 2,
+    exportSchema = false
+)
 abstract class GiphDb : RoomDatabase() {
 
+    abstract fun wishDado() : WishListDao
     abstract fun gapeDado() : GiphDao
+
 
     companion object {
         private var instance: GiphDb? = null
@@ -20,10 +29,9 @@ abstract class GiphDb : RoomDatabase() {
                 instance = Room.databaseBuilder(
                     context.applicationContext,
                     GiphDb::class.java,
-                    "giph_database")
+                    "giph_db"
+                )
                 .build()
-            }else {
-
             }
             return instance!!
         }

@@ -11,17 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/searchInput"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:ems="10"
-            android:hint="Search GIPHY"
-            android:imeOptions="actionGo"
-            android:inputType="textPersonName" />
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler"
             android:layout_width="match_parent"
@@ -31,13 +20,5 @@
             tools:listitem="@layout/giph_item"/>
 
     </RelativeLayout>
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:indeterminate="true"
-        android:layout_centerInParent="true" />
 
 </RelativeLayout>
