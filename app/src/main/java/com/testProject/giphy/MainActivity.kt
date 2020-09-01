@@ -2,12 +2,14 @@ package com.testProject.giphy
 
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -49,10 +51,14 @@ class MainActivity : AppCompatActivity() {
 
         adapter.setOnItemLongClickListener(object : GiphsRecyclerAdapter.OnItemLongClickListener {
             override fun onItemLongClicked(giph: Giph?, position: Int) {
-                var wishgGiph = WishGiph(giph!!.id,giph.type!!,giph.url!!,giph.embed_url!!,giph.title!!)
+                var wishgGiph =
+                    WishGiph(giph!!.id, giph.type!!, giph.url!!, giph.embed_url!!, giph.title!!)
                 wishViewModel.insertAData(wishgGiph)
+                toast(this@MainActivity)
             }
         })
+
+
 
         RxTextView.textChanges(searchInput)
             .debounce(1, TimeUnit.SECONDS)
@@ -88,4 +94,8 @@ class MainActivity : AppCompatActivity() {
         val imm = getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(searchInput.windowToken, 0)
     }
+    fun toast(context: Context) {
+        Toast.makeText(context, "Giph added to wish list", Toast.LENGTH_SHORT).show()
+    }
+
 }

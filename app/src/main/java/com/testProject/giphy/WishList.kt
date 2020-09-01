@@ -1,8 +1,10 @@
 package com.testProject.giphy
 
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -33,7 +35,12 @@ class WishList : AppCompatActivity() {
 
             override fun onItemLongClicked(giph: WishGiph?, position: Int) {
                 wishViewModel.DeletAData(giph!!)
+                toast(this@WishList)
             }
         })
+    }
+
+    fun toast(context: Context) {
+        Toast.makeText(context, "Giph removed to wish list", Toast.LENGTH_SHORT).show()
     }
 }

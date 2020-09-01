@@ -19,7 +19,7 @@ interface GiphDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAll(posts: List<Giph>)
 
-    @Insert()
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(giph: Giph?)
 
     @Query("DELETE  FROM giph_table")
