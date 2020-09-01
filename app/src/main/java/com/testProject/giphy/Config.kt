@@ -1,16 +1,13 @@
 package com.testProject.giphy
 
-import com.giphy.sdk.core.models.enums.MediaType
-import com.giphy.sdk.ui.GPHContentType
-import com.giphy.sdk.ui.views.GiphyGridView
+import android.content.ClipData
+import androidx.lifecycle.LiveData
+import androidx.paging.LivePagedListBuilder
+import androidx.paging.PagedList
+
 
 object Config {
-    var spanCount = 2
-    var cellPadding = 0
-    var mediaType = MediaType.gif
-    var contentType = GPHContentType.gif
-    var direction = GiphyGridView.VERTICAL
-    var fixedSizeCells = false
-    var showCheckeredBackground = true
-    var ServicesUrl = "http://api.giphy.com/v1/gifs/"
+    const val ServicesUrl = "http://api.giphy.com/v1/gifs/"
+    const val API_KEY = "oxhH1vEFJ5z99rPvSULUzMRLCmS2lnIN"
+    const val Random_ID = "oxhH1vEFJ5z99rPvSULUzMRLCmS2lnIN"
 }

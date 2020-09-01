@@ -1,29 +1,37 @@
 package com.testProject.giphy
 
-import android.app.Activity
+
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
-import android.view.inputmethod.InputMethodManager
+import android.widget.ImageView
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.giphy.sdk.ui.Giphy
-import com.giphy.sdk.ui.pagination.GPHContent
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.get
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.testProject.giphy.adapters.GiphsRecyclerAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    companion object {
-        private val API_KEY : String = "oxhH1vEFJ5z99rPvSULUzMRLCmS2lnIN"
-    }
+    //private lateinit var myViewModel : MyViewModel
+    private lateinit var adapter : GiphsRecyclerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Giphy.configure(this, API_KEY)
         setContentView(R.layout.activity_main)
 
+        val myViewModel by viewModels<MyViewModel>()
+        var recycler : RecyclerView = findViewById<RecyclerView>(R.id.recycler)
+        adapter = GiphsRecyclerAdapter()
+        recycler.layoutManager = GridLayoutManager(this, 4)
+        recycler.adapter = adapter
+        myViewModel.giphyes?.observe(this) {
+                adapter.submitList(it)
+        }
 
-
-        searchInput.addTextChangedListener(object : TextWatcher {
+     /*   searchInput.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(p0: Editable?) = Unit
 
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) = Unit
@@ -31,14 +39,14 @@ class MainActivity : AppCompatActivity() {
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
 
             }
-        })
+        })*/
     }
 
 
 
-    fun dismissKeyboard() {
+    /*fun dismissKeyboard() {
         val imm = getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(searchInput.windowToken, 0)
-    }
+    }*/
 
 }
