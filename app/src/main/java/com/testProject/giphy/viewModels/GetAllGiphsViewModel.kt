@@ -36,19 +36,21 @@ public class GetAllGiphsViewModel(application: Application) : AndroidViewModel(a
     }
 
     fun insertData(giphs : List<Giph>?)  {
-        viewModelScope.launch(Dispatchers.IO){
-            giphDao?.insertAll(giphs!!)
+        if (giphs != null) {
+            viewModelScope.launch(Dispatchers.Default) {
+                giphDao?.insertAll(giphs)
+            }
         }
     }
 
     fun insertAData(giphs : Giph?)  {
-        viewModelScope.launch(Dispatchers.IO){
-            giphDao?.insert(giphs!!)
+        viewModelScope.launch(Dispatchers.Default){
+            giphDao?.insert(giphs)
         }
     }
 
     fun DeletAllData()  {
-        viewModelScope.launch(Dispatchers.IO){ giphDao?.deleteAll()
+        viewModelScope.launch(Dispatchers.Default){ giphDao?.deleteAll()
         }
     }
 

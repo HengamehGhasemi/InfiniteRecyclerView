@@ -18,7 +18,7 @@ interface WishListDao {
     fun insertAll(posts: List<WishGiph>)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insert(wishGiph: WishGiph)
+    fun insert(wishGiph: WishGiph?)
 
     @Query("DELETE FROM wish WHERE id = :Id")
     fun deleteById(Id: String)

@@ -17,7 +17,7 @@ interface GiphDao {
     fun GetAllGiphs() : DataSource.Factory<Int, Giph>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertAll(posts: List<Giph>)
+    fun insertAll(posts: List<Giph>?)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(giph: Giph?)

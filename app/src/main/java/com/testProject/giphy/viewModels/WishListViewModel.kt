@@ -43,18 +43,20 @@ public class WishListViewModel(application: Application) : AndroidViewModel(appl
     }
 
     fun insertAData(giphs : WishGiph?)  {
-        viewModelScope.launch(Dispatchers.IO){
-            wishListDao?.insert(giphs!!)
+        if (giphs != null) {
+            viewModelScope.launch(Dispatchers.Default) {
+                wishListDao?.insert(giphs)
+            }
         }
     }
 
     fun DeletData()  {
-        viewModelScope.launch(Dispatchers.IO){ wishListDao?.deleteAll()
+        viewModelScope.launch(Dispatchers.Default){ wishListDao?.deleteAll()
         }
     }
 
     fun DeletAData(giph : WishGiph?)  {
-        viewModelScope.launch(Dispatchers.IO){ wishListDao?.deleteById(giph?.id!!)
+        viewModelScope.launch(Dispatchers.Default){ wishListDao?.deleteById(giph?.id!!)
         }
     }
 }
