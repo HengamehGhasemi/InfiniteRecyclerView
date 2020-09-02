@@ -1,4 +1,4 @@
-#Wed Sep 02 20:55:26 IRDT 2020
+#Wed Sep 02 21:48:50 IRDT 2020
 base.0=/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
