@@ -1,0 +1,489 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/919f6bd2869add29429206ab65e91026/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0582cf930e3e2cddc3364cc394f5224b/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8906de766a98770656c815a2ec3a5d7a/jetified-core-ktx-1.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-ktx:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/1ed8755452220ad5a6eb451fd2b7d7bf/jetified-room-ktx-2.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7b033e6b8f225f303975b643a1ee4639/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/90e41fb3ce980c837858eacea172cdce/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9128f87ef351206d0715c4b2de710ea1/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9732c24bb30ee6b16329f710186a37d9/jetified-imagepipeline-okhttp3-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.airbnb.android:lottie:3.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c3a754280cca713ec3ff991ea3bdea27/jetified-lottie-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cefe525635b030d8633424b1d75ce86/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/b5be4783eefa9eb592dc81b39bdd30c2/material-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/035e79feac643ff23f2c9730c699e50a/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:17:1-74:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f5cc70fada56399c3e1a88fa29ca9101/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/da2852a58d4ae23aadcb2fcf48b523ca/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.paging:paging-rxjava2:2.1.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a489f729ec6166aa4de8a719b3d7f19a/paging-rxjava2-2.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.paging:paging-runtime:2.1.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/585984bf4423315a8ae619300919508b/paging-runtime-2.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/bd8f691c65dc70be670287fb2d53ed69/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0709a8e677ea17d884fc9db78f654b30/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8ca673feca6318d34697385f6c201bcb/jetified-rxbinding-0.4.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ab79d571540e59de7ebf7ed9bfa17db/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0b1399cb25467e70831c50e4792fc15b/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/43229cd07b97edef324141a486120626/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/414104850eed0809f79ec492580a5127/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8d51fe5b3a8a21190b4de617d30bb716/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cb5b18fe97ec6598fc3a7b17d36141e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/bda424acbdcccbbf085337c25091abf8/fragment-1.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/05506c620f41a946d05981079ac33f8d/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ae153815f9294635b58daaed4457f81/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/64cb9eead473e41644e81ef75f8c1c81/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d938799bf2c7d4bd4e6a850f3bbf9452/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8d34f5cf2d0f3dc213eb2efce5534067/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/042d6e923f8c6a6ea213da4844bfd401/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f60a664a476d8f539e517bdf798f3d2c/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/499286cf300446741c00ec9824587a83/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/eb9320552376c0c14cd2d2d7e00e1560/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7786085afac74595657b4507b7b8e196/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0c1ee6b797b147915cc374a0322b28f9/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21d47dff16ccbe3d5a08083de58452c6/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6fc83fc652dcc87bc99a1736fb1d6a0b/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/681c86ee0886ffddce1d59e7c382224c/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4c88e65b72470b344900b9808e530c0d/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2a5f03db087110a48ed0f9bce297e682/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a67293c3d05ef07d6d8cb337786a628d/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/3da7d2cebf8648e6517282d937846880/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7cf20df73f89d4b437244dc70d47fbc8/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0d2962d75836bec3bff240b317e7badc/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e6359cec98b2353ca41ff9330fd185c9/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/305691cc96ba65ae7f9b704e8080a529/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/97cce1bb6cb39a9a547cbb3503fc283a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5ed205745f4b7cdc0a73c80446928e55/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/3cdcc342684cac8867a650f798f00f69/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9a1bb90fd3492ce2aef82dcd72693694/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c0ae28411163ea290937b3d153e4312f/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/1a9437305768a3a7bf3dea568144db05/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/190fd911cad89211b0e89ed22ca4dbce/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/35a9c31eccabf0925e4cdda3d5ed0ef7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/efac2d9422f6c48ba16bad7e50391351/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.alterac.blurkit:blurkit:1.1.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5a77feabc48845e4472b1e50d07df2b8/jetified-blurkit-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4fbbb4937c6f69f30b549ea077bbf1dd/jetified-fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/742bead62b8d1eaa3055b6f1bfa2d068/jetified-animated-gif-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-webp:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5f90be1f471a8a1ad3536f60eb147d5f/jetified-animated-webp-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-base:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d4f3bed6cfbce9a63aad973de632b10e/jetified-animated-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e08050211e823684aec62b718147b36a/jetified-animated-drawable-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:webpsupport:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f002786b9e8d720e5eeda783c693ceb0/jetified-webpsupport-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d8f1233375d8460990f828e2811da43f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex:rxandroid:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4edf0920ac1843e6766d2d78732ea180/jetified-rxandroid-1.1.0/AndroidManifest.xml:15:1-21:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7fe5a380df816b442e3c51f8e9f27591/jetified-drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21775bd41b6ceae7979b15adf8ca8cbe/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0f51088a744a941c444d7006d17391ad/jetified-memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e87100b9b63badce4d61731cab95022f/jetified-memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/92fbce4b3b975986669ca020eac21484/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/fbe24a96997365f23e411a0173f54b75/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/dff20259cde476b6c89b9cadf271562a/jetified-imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8b453fe5fd685cc7f1acb9148b5f8ee6/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/49ae3e43928fa899117fc89f934f9e47/jetified-soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9dad2260372df158f09776656afbb00d/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93664b1f95b49aadde2f799adffe6ee7/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d6d2504e4ecfc326d53dc720875582ca/jetified-soloader-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ec95350af32cb9d8c83465321c18b1d0/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/94c9e48a2e4f3c2d710b8347a343b0ea/jetified-annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:10:5-67
+MERGED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:8:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:8:22-77
+application
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:10:5-31:19
+MERGED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:12:5-22:19
+MERGED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:12:5-22:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.airbnb.android:lottie:3.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c3a754280cca713ec3ff991ea3bdea27/jetified-lottie-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c3a754280cca713ec3ff991ea3bdea27/jetified-lottie-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cefe525635b030d8633424b1d75ce86/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cefe525635b030d8633424b1d75ce86/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/b5be4783eefa9eb592dc81b39bdd30c2/material-1.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/b5be4783eefa9eb592dc81b39bdd30c2/material-1.2.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:28:5-72:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:28:5-72:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ab79d571540e59de7ebf7ed9bfa17db/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ab79d571540e59de7ebf7ed9bfa17db/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0b1399cb25467e70831c50e4792fc15b/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0b1399cb25467e70831c50e4792fc15b/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.core:core:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21d47dff16ccbe3d5a08083de58452c6/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21d47dff16ccbe3d5a08083de58452c6/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2a5f03db087110a48ed0f9bce297e682/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2a5f03db087110a48ed0f9bce297e682/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7cf20df73f89d4b437244dc70d47fbc8/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7cf20df73f89d4b437244dc70d47fbc8/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0d2962d75836bec3bff240b317e7badc/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0d2962d75836bec3bff240b317e7badc/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d6d2504e4ecfc326d53dc720875582ca/jetified-soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d6d2504e4ecfc326d53dc720875582ca/jetified-soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/94c9e48a2e4f3c2d710b8347a343b0ea/jetified-annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/94c9e48a2e4f3c2d710b8347a343b0ea/jetified-annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21d47dff16ccbe3d5a08083de58452c6/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:17:9-40
+	android:networkSecurityConfig
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:14:9-69
+activity#com.testProject.giphy.WishList
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:18:9-55
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:18:19-43
+meta-data#com.google.android.wearable.standalone
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:20:9-22:36
+	android:value
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:22:13-33
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:21:13-66
+activity#com.testProject.giphy.MainActivity
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+MERGED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/919f6bd2869add29429206ab65e91026/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/919f6bd2869add29429206ab65e91026/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0582cf930e3e2cddc3364cc394f5224b/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0582cf930e3e2cddc3364cc394f5224b/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8906de766a98770656c815a2ec3a5d7a/jetified-core-ktx-1.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8906de766a98770656c815a2ec3a5d7a/jetified-core-ktx-1.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-ktx:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/1ed8755452220ad5a6eb451fd2b7d7bf/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/1ed8755452220ad5a6eb451fd2b7d7bf/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7b033e6b8f225f303975b643a1ee4639/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7b033e6b8f225f303975b643a1ee4639/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/90e41fb3ce980c837858eacea172cdce/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/90e41fb3ce980c837858eacea172cdce/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9128f87ef351206d0715c4b2de710ea1/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9128f87ef351206d0715c4b2de710ea1/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9732c24bb30ee6b16329f710186a37d9/jetified-imagepipeline-okhttp3-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9732c24bb30ee6b16329f710186a37d9/jetified-imagepipeline-okhttp3-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c3a754280cca713ec3ff991ea3bdea27/jetified-lottie-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c3a754280cca713ec3ff991ea3bdea27/jetified-lottie-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cefe525635b030d8633424b1d75ce86/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cefe525635b030d8633424b1d75ce86/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/b5be4783eefa9eb592dc81b39bdd30c2/material-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/b5be4783eefa9eb592dc81b39bdd30c2/material-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/035e79feac643ff23f2c9730c699e50a/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/035e79feac643ff23f2c9730c699e50a/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f5cc70fada56399c3e1a88fa29ca9101/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f5cc70fada56399c3e1a88fa29ca9101/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/da2852a58d4ae23aadcb2fcf48b523ca/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/da2852a58d4ae23aadcb2fcf48b523ca/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.paging:paging-rxjava2:2.1.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a489f729ec6166aa4de8a719b3d7f19a/paging-rxjava2-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-rxjava2:2.1.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a489f729ec6166aa4de8a719b3d7f19a/paging-rxjava2-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/585984bf4423315a8ae619300919508b/paging-runtime-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/585984bf4423315a8ae619300919508b/paging-runtime-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/bd8f691c65dc70be670287fb2d53ed69/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/bd8f691c65dc70be670287fb2d53ed69/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0709a8e677ea17d884fc9db78f654b30/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0709a8e677ea17d884fc9db78f654b30/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8ca673feca6318d34697385f6c201bcb/jetified-rxbinding-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8ca673feca6318d34697385f6c201bcb/jetified-rxbinding-0.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ab79d571540e59de7ebf7ed9bfa17db/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ab79d571540e59de7ebf7ed9bfa17db/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0b1399cb25467e70831c50e4792fc15b/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0b1399cb25467e70831c50e4792fc15b/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/43229cd07b97edef324141a486120626/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/43229cd07b97edef324141a486120626/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/414104850eed0809f79ec492580a5127/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/414104850eed0809f79ec492580a5127/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8d51fe5b3a8a21190b4de617d30bb716/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8d51fe5b3a8a21190b4de617d30bb716/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cb5b18fe97ec6598fc3a7b17d36141e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2cb5b18fe97ec6598fc3a7b17d36141e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/bda424acbdcccbbf085337c25091abf8/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/bda424acbdcccbbf085337c25091abf8/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/05506c620f41a946d05981079ac33f8d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/05506c620f41a946d05981079ac33f8d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ae153815f9294635b58daaed4457f81/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6ae153815f9294635b58daaed4457f81/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/64cb9eead473e41644e81ef75f8c1c81/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/64cb9eead473e41644e81ef75f8c1c81/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d938799bf2c7d4bd4e6a850f3bbf9452/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d938799bf2c7d4bd4e6a850f3bbf9452/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8d34f5cf2d0f3dc213eb2efce5534067/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8d34f5cf2d0f3dc213eb2efce5534067/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/042d6e923f8c6a6ea213da4844bfd401/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/042d6e923f8c6a6ea213da4844bfd401/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f60a664a476d8f539e517bdf798f3d2c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f60a664a476d8f539e517bdf798f3d2c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/499286cf300446741c00ec9824587a83/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/499286cf300446741c00ec9824587a83/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/eb9320552376c0c14cd2d2d7e00e1560/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/eb9320552376c0c14cd2d2d7e00e1560/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7786085afac74595657b4507b7b8e196/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7786085afac74595657b4507b7b8e196/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0c1ee6b797b147915cc374a0322b28f9/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0c1ee6b797b147915cc374a0322b28f9/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21d47dff16ccbe3d5a08083de58452c6/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21d47dff16ccbe3d5a08083de58452c6/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6fc83fc652dcc87bc99a1736fb1d6a0b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/6fc83fc652dcc87bc99a1736fb1d6a0b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/681c86ee0886ffddce1d59e7c382224c/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/681c86ee0886ffddce1d59e7c382224c/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4c88e65b72470b344900b9808e530c0d/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4c88e65b72470b344900b9808e530c0d/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2a5f03db087110a48ed0f9bce297e682/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/2a5f03db087110a48ed0f9bce297e682/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a67293c3d05ef07d6d8cb337786a628d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a67293c3d05ef07d6d8cb337786a628d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/3da7d2cebf8648e6517282d937846880/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/3da7d2cebf8648e6517282d937846880/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7cf20df73f89d4b437244dc70d47fbc8/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7cf20df73f89d4b437244dc70d47fbc8/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0d2962d75836bec3bff240b317e7badc/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0d2962d75836bec3bff240b317e7badc/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e6359cec98b2353ca41ff9330fd185c9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e6359cec98b2353ca41ff9330fd185c9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/305691cc96ba65ae7f9b704e8080a529/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/305691cc96ba65ae7f9b704e8080a529/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/97cce1bb6cb39a9a547cbb3503fc283a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/97cce1bb6cb39a9a547cbb3503fc283a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5ed205745f4b7cdc0a73c80446928e55/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5ed205745f4b7cdc0a73c80446928e55/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/3cdcc342684cac8867a650f798f00f69/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/3cdcc342684cac8867a650f798f00f69/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9a1bb90fd3492ce2aef82dcd72693694/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9a1bb90fd3492ce2aef82dcd72693694/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c0ae28411163ea290937b3d153e4312f/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/c0ae28411163ea290937b3d153e4312f/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/1a9437305768a3a7bf3dea568144db05/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/1a9437305768a3a7bf3dea568144db05/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/190fd911cad89211b0e89ed22ca4dbce/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/190fd911cad89211b0e89ed22ca4dbce/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/35a9c31eccabf0925e4cdda3d5ed0ef7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/35a9c31eccabf0925e4cdda3d5ed0ef7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/efac2d9422f6c48ba16bad7e50391351/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/efac2d9422f6c48ba16bad7e50391351/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.alterac.blurkit:blurkit:1.1.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5a77feabc48845e4472b1e50d07df2b8/jetified-blurkit-1.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.alterac.blurkit:blurkit:1.1.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5a77feabc48845e4472b1e50d07df2b8/jetified-blurkit-1.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4fbbb4937c6f69f30b549ea077bbf1dd/jetified-fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4fbbb4937c6f69f30b549ea077bbf1dd/jetified-fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/742bead62b8d1eaa3055b6f1bfa2d068/jetified-animated-gif-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/742bead62b8d1eaa3055b6f1bfa2d068/jetified-animated-gif-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5f90be1f471a8a1ad3536f60eb147d5f/jetified-animated-webp-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/5f90be1f471a8a1ad3536f60eb147d5f/jetified-animated-webp-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d4f3bed6cfbce9a63aad973de632b10e/jetified-animated-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d4f3bed6cfbce9a63aad973de632b10e/jetified-animated-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e08050211e823684aec62b718147b36a/jetified-animated-drawable-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e08050211e823684aec62b718147b36a/jetified-animated-drawable-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f002786b9e8d720e5eeda783c693ceb0/jetified-webpsupport-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/f002786b9e8d720e5eeda783c693ceb0/jetified-webpsupport-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d8f1233375d8460990f828e2811da43f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d8f1233375d8460990f828e2811da43f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex:rxandroid:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4edf0920ac1843e6766d2d78732ea180/jetified-rxandroid-1.1.0/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/4edf0920ac1843e6766d2d78732ea180/jetified-rxandroid-1.1.0/AndroidManifest.xml:19:5-43
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7fe5a380df816b442e3c51f8e9f27591/jetified-drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/7fe5a380df816b442e3c51f8e9f27591/jetified-drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21775bd41b6ceae7979b15adf8ca8cbe/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21775bd41b6ceae7979b15adf8ca8cbe/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0f51088a744a941c444d7006d17391ad/jetified-memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/0f51088a744a941c444d7006d17391ad/jetified-memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e87100b9b63badce4d61731cab95022f/jetified-memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/e87100b9b63badce4d61731cab95022f/jetified-memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/92fbce4b3b975986669ca020eac21484/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/92fbce4b3b975986669ca020eac21484/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/fbe24a96997365f23e411a0173f54b75/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/fbe24a96997365f23e411a0173f54b75/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/dff20259cde476b6c89b9cadf271562a/jetified-imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/dff20259cde476b6c89b9cadf271562a/jetified-imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8b453fe5fd685cc7f1acb9148b5f8ee6/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/8b453fe5fd685cc7f1acb9148b5f8ee6/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/49ae3e43928fa899117fc89f934f9e47/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/49ae3e43928fa899117fc89f934f9e47/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9dad2260372df158f09776656afbb00d/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/9dad2260372df158f09776656afbb00d/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93664b1f95b49aadde2f799adffe6ee7/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93664b1f95b49aadde2f799adffe6ee7/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d6d2504e4ecfc326d53dc720875582ca/jetified-soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/d6d2504e4ecfc326d53dc720875582ca/jetified-soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ec95350af32cb9d8c83465321c18b1d0/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ec95350af32cb9d8c83465321c18b1d0/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/94c9e48a2e4f3c2d710b8347a343b0ea/jetified-annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/94c9e48a2e4f3c2d710b8347a343b0ea/jetified-annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+		ADDED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+uses-library#android.test.runner
+ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:13:9-15:40
+	android:required
+		ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:14:13-47
+uses-library#android.test.base
+ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:16:9-18:40
+	android:required
+		ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:17:13-45
+uses-library#android.test.mock
+ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:19:9-21:40
+	android:required
+		ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:20:13-45
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:22-74
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:29:9-32:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:32:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:33:9-36:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:36:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:34:13-70
+provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:38:9-46:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:42:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:40:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:39:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:43:13-45:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:45:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:44:17-67
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:48:9-61:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:53:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:50:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:52:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:51:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:49:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:62:9-71:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:68:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:64:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:67:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:65:13-46
+	android:roundIcon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:69:13-57
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:66:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:63:13-93

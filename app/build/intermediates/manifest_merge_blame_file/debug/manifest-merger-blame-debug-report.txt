@@ -1,0 +1,198 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.testProject.giphy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:5:5-68
+11-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:7:5-81
+13-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:8:5-80
+14-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:8:22-77
+15
+16    <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:5-77
+17-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:22-74
+18
+19    <application
+19-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:10:5-31:19
+20        android:allowBackup="true"
+20-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] /home/hengameh/.gradle/caches/transforms-2/files-2.1/21d47dff16ccbe3d5a08083de58452c6/core-1.3.1/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:12:9-43
+25        android:label="@string/app_name"
+25-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:13:9-41
+26        android:networkSecurityConfig="@xml/network_security_config"
+26-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:14:9-69
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:15:9-54
+28        android:supportsRtl="true"
+28-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:16:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:17:9-40
+31        <activity android:name="com.testProject.giphy.WishList" />
+31-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:18:9-55
+31-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:18:19-43
+32
+33        <meta-data
+33-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:20:9-22:36
+34            android:name="com.google.android.wearable.standalone"
+34-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:21:13-66
+35            android:value="true" />
+35-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:22:13-33
+36
+37        <activity android:name="com.testProject.giphy.MainActivity" >
+37-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:24:9-30:20
+37-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:24:19-47
+38            <intent-filter>
+38-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:25:13-29:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:26:17-69
+39-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:26:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:28:17-77
+41-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:28:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <uses-library
+45-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:13:9-15:40
+46            android:name="android.test.runner"
+46-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:14:13-47
+47            android:required="false" />
+47-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:15:13-37
+48        <uses-library
+48-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:16:9-18:40
+49            android:name="android.test.base"
+49-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:17:13-45
+50            android:required="false" />
+50-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:18:13-37
+51        <uses-library
+51-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:19:9-21:40
+52            android:name="android.test.mock"
+52-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:20:13-45
+53            android:required="false" />
+53-->[com.giphy.sdk:ui:1.3.2] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a75fd64180bf1725ced8c423daac8301/jetified-ui-1.3.2/AndroidManifest.xml:21:13-37
+54
+55        <provider
+55-->[com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+56            android:name="com.squareup.picasso.PicassoProvider"
+56-->[com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+57            android:authorities="com.testProject.giphy.com.squareup.picasso"
+57-->[com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+58            android:exported="false" />
+58-->[com.squareup.picasso:picasso:2.71828] /home/hengameh/.gradle/caches/transforms-2/files-2.1/ed3c2deb65df175b931f9a0dd3fd3277/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+59
+60        <service
+60-->[androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+61            android:name="androidx.room.MultiInstanceInvalidationService"
+61-->[androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+62            android:directBootAware="true"
+62-->[androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+63            android:exported="false" />
+63-->[androidx.room:room-runtime:2.2.5] /home/hengameh/.gradle/caches/transforms-2/files-2.1/93f5c6ed0143b890fdba7018f8ab8a56/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+64        <service
+64-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:29:9-32:45
+65            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+65-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:30:13-80
+66            android:enabled="false"
+66-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:31:13-36
+67            android:process=":leakcanary" />
+67-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:32:13-42
+68        <service
+68-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:33:9-36:45
+69            android:name="com.squareup.leakcanary.DisplayLeakService"
+69-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:34:13-70
+70            android:enabled="false"
+70-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:35:13-36
+71            android:process=":leakcanary" />
+71-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:36:13-42
+72
+73        <provider
+73-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:38:9-46:20
+74            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+74-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:39:13-83
+75            android:authorities="com.squareup.leakcanary.fileprovider.com.testProject.giphy"
+75-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:40:13-88
+76            android:exported="false"
+76-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:41:13-37
+77            android:grantUriPermissions="true" >
+77-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:42:13-47
+78            <meta-data
+78-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:43:13-45:66
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:44:17-67
+80                android:resource="@xml/leak_canary_file_paths" />
+80-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:45:17-63
+81        </provider>
+82
+83        <activity
+83-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:48:9-61:20
+84            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+84-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:49:13-80
+85            android:enabled="false"
+85-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:50:13-36
+86            android:icon="@mipmap/leak_canary_icon"
+86-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:51:13-52
+87            android:label="@string/leak_canary_display_activity_label"
+87-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:52:13-71
+88            android:process=":leakcanary"
+88-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:53:13-42
+89            android:taskAffinity="com.squareup.leakcanary.com.testProject.giphy"
+89-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:54:13-76
+90            android:theme="@style/leak_canary_LeakCanary.Base" >
+90-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:55:13-63
+91            <intent-filter>
+91-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:25:13-29:29
+92                <action android:name="android.intent.action.MAIN" />
+92-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:26:17-69
+92-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:26:25-66
+93
+94                <category android:name="android.intent.category.LAUNCHER" />
+94-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:28:17-77
+94-->/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/AndroidManifest.xml:28:27-74
+95            </intent-filter>
+96        </activity>
+97        <activity
+97-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:62:9-71:68
+98            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+98-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:63:13-93
+99            android:enabled="false"
+99-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:64:13-36
+100            android:excludeFromRecents="true"
+100-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:65:13-46
+101            android:icon="@mipmap/leak_canary_icon"
+101-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:66:13-52
+102            android:label="@string/leak_canary_storage_permission_activity_label"
+102-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:67:13-82
+103            android:process=":leakcanary"
+103-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:68:13-42
+104            android:roundIcon="@mipmap/leak_canary_icon"
+104-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:69:13-57
+105            android:taskAffinity="com.squareup.leakcanary.com.testProject.giphy"
+105-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:70:13-76
+106            android:theme="@style/leak_canary_Theme.Transparent" />
+106-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /home/hengameh/.gradle/caches/transforms-2/files-2.1/a93cbecbeb40a476cb155a1b6b452851/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:71:13-65
+107    </application>
+108
+109</manifest>

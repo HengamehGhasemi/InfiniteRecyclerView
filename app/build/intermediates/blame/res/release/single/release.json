@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/menu_menu.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/drawable_ic_baseline_close_24.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/drawable/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/xml_network_security_config.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/drawable_bg_accent.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/drawable/bg_accent.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/drawable-v24_rapid_radiant_bug.gif.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/drawable-v24/rapid_radiant_bug.gif"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/layout_activity_wish_list.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/layout/activity_wish_list.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/layout_giph_item.xml.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/layout/giph_item.xml"
+    },
+    {
+        "merged": "/home/hengameh/AndroidStudioProjects/Giphy/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/hengameh/AndroidStudioProjects/Giphy/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
