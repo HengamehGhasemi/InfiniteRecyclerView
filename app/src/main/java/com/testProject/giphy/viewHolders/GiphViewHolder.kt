@@ -42,6 +42,7 @@ class GiphViewHolder(parent : ViewGroup) : RecyclerView.ViewHolder (
             ): Boolean {
                 TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
                 imageLoading.visibility = View.VISIBLE
+                return false
             }
             override fun onResourceReady(
                 p0: Drawable?,

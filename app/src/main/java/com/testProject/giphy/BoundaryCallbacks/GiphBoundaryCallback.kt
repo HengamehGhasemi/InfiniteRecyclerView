@@ -23,7 +23,7 @@ class GiphBoundaryCallback (private val giphDao: GiphDao?,val getAllGiphsViewMod
 
         override fun onZeroItemsLoaded() {
 
-            if (Config.serachString.equals("")) {
+            if (Config.serachString.equals("")|| Config.serachString == null) {
 
                 val apiService = MainServiceGenerator.createService(WebAPI::class.java)
                 val call = apiService.getAllGiphs(Config.API_KEY, 30, 0, "g")
